@@ -1,0 +1,853 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    height: 100vh;
+    width: 100wh;
+}
+
+.sun {
+    height: 220px;
+    width: 220px;
+    background: radial-gradient(yellow, rgb(255, 166, 0));
+    border-radius: 50%;
+    box-shadow: 
+    0 0 20px rgba(255, 223, 100, 0.8), 
+    0 0 60px rgba(255, 223, 00, 0.5),    
+    0 0 100px rgba(255, 231, 78, 0.2); 
+    position: relative;
+    left: 950px;
+    top: 20px;
+}
+
+.planet-chronos {
+    position: absolute;
+    bottom: 100px;
+}
+
+.planet {
+    position: relative;
+    width: 160px;
+    height: 150px;
+    background: radial-gradient(circle, #4a4a4a 40%, #2a2a2a);
+    border-radius: 50%;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.6);
+    left: 515px;
+    top: -40px;
+}
+
+.rings {
+    position: relative;
+    bottom: 110px;
+    left: 600px;
+    width: 250px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+}
+
+.lanet {
+    width: 210px;
+    height: 190px;
+    background: radial-gradient(circle at center, #1e90ff, #000080);
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.7);
+    left: 50px;
+    bottom: 30px;
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 255, 255, 0.8), 
+        0 0 20px rgba(255, 255, 255, 0.6), 
+        0 0 30px rgba(255, 255, 255, 0.4);
+    position: absolute;
+    left: 100px;
+    bottom: 400px;
+}
+
+.star2 {
+    width: 10px;
+    height: 10px;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 800px;
+    bottom: 300px;
+    background-color: rgb(250, 137, 7);
+}
+
+.star3 {
+    width: 5px;
+    height: 5px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 600px;
+    bottom: 50px;
+}
+
+.star4 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+}
+
+.star5 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 700px;
+    bottom: 200px;
+}
+
+.star6 {
+    width: 3px;
+    height: 3px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(400, 255, 300, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 400px;
+    bottom: 350px;
+}
+
+.star7 {
+    width: 4px;
+    height: 4px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 600px;
+    bottom: 440px;
+}
+
+.star8 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 900px;
+    bottom: 100px;
+}
+
+.star9 {
+    width: 6px;
+    height: 6px;
+    background-color: yellow;
+    background: radial-gradient(circle, red, rgba(248, 248, 248, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 400px;
+    bottom: 150px;
+}
+
+.star10 {
+    width: 4px;
+    height: 4px;
+    background-color: yellow;
+    background: radial-gradient(circle, rgb(156, 0, 218), rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 800px;
+    bottom: 500px;
+}
+
+.star11 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 200px;
+    bottom: 480px;
+}
+
+.nebula {
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(255, 105, 180, 0.8), rgba(0, 0, 0, 0.9));
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 
+        0 0 50px rgba(255, 105, 180, 0.8), 
+        0 0 100px rgba(255, 105, 180, 0.6), 
+        0 0 150px rgba(255, 105, 180, 0.4);
+    filter: blur(10px);
+    left: 280px;
+    bottom: 440px;
+}
+
+.black-hole2 {
+    width: 70px;
+    height: 70px;
+    background: radial-gradient(circle, rgba(160, 24, 24, 0.8), rgba(0, 0, 0, 0.9));
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 
+        0 0 50px rgba(47, 0, 92, 0.8), 
+        0 0 100px rgba(255, 105, 180, 0.6), 
+        0 0 150px rgba(255, 105, 180, 0.4);
+    filter: blur(10px);
+    left: 990px;
+    bottom: 150px;
+}
+
+.star12 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 300px;
+    bottom: 260px;
+}
+
+.star13 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 800px;
+    bottom: 50px;
+}
+
+.star14 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 240px;
+    bottom: 370px;
+}
+
+.star15 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 320px;
+    bottom: 40px;
+}
+
+.star16 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 800px;
+    bottom: 150px;
+}
+
+.nebula2 {
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(circle, rgba(255, 105, 180, 0.8), rgba(0, 0, 0, 0.));
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 
+        0 0 50px rgba(255, 105, 180, 0.8), 
+        0 0 100px rgba(255, 105, 180, 0.6), 
+        0 0 150px rgba(255, 105, 180, 0.4);
+    filter: blur(10px);
+    left: 400px;
+    bottom: 1px;
+}
+
+.star17 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 40px;
+    bottom: 300px;
+}
+
+.star18 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 750px;
+    bottom: 400px;
+}
+
+.star19 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 300px;
+    bottom: 100px;
+}
+
+.star20 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 700px;
+    bottom: 110px;
+}
+
+.star21 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 200px;
+    bottom: 250px;
+}
+
+.star22 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 900px;
+    bottom: 240px;
+}
+
+.star23 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 400px;
+    bottom: 250px;
+}
+
+.star24 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 550px;
+    bottom: 150px;
+}
+
+.star25 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 80px;
+    bottom: 500px;
+}
+
+.star26 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 700px;
+    bottom: 460px;
+}
+
+.star27 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 1150px;
+    bottom: 200px;
+}
+
+.star28 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 750px;
+    bottom: 20px;
+}
+
+.star29 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 850px;
+    bottom: 450px;
+}
+
+.star30 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 100px;
+    bottom: 360px;
+}
+
+.star31 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 770px;
+    bottom: 240px;
+}
+
+.star32 {
+    width: 2px;
+    height: 2px;
+    background-color: yellow;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 166, 0, 0.6), 
+        0 0 30px #fdec0066;
+    position: absolute;
+    left: 20px;
+    bottom: 430px;
+}
+
+.lens-flare {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
+    border-radius: 50%;
+    filter: blur(15px);
+    box-shadow: 
+        0 0 50px rgba(255, 255, 255, 0.5), 
+        0 0 100px rgba(255, 255, 255, 0.3),
+        0 0 200px rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
+    left: 940px;
+    bottom: 380px;
+    transform: rotate(15deg);
+    animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1) rotate(15deg);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.1) rotate(15deg);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1) rotate(15deg);
+        opacity: 0.8;
+    }
+}
+
+.lens-flare2{
+    position: relative;
+    width: 5px;
+    height: 80px;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
+    border-radius: 50%;
+    filter: blur(10px);
+    box-shadow: 
+        0 0 50px rgba(255, 255, 255, 0.5), 
+        0 0 100px rgba(255, 255, 255, 0.3),
+        0 0 200px rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
+    left: 940px;
+    bottom: 380px;
+    transform: rotate(15deg);
+    animation: pulse 2s infinite;
+    transform: rotate(20deg);
+    left: 150px;
+    bottom: 430px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1) rotate(15deg);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.1) rotate(15deg);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1) rotate(15deg);
+        opacity: 0.8;
+    }
+}
+
+.lens-flare3 {
+    position: relative;
+    width: 5px;
+    height: 80px;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
+    border-radius: 50%;
+    filter: blur(10px);
+    box-shadow: 
+        0 0 50px rgba(255, 255, 255, 0.5), 
+        0 0 100px rgba(255, 255, 255, 0.3),
+        0 0 200px rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
+    left: 940px;
+    bottom: 380px;
+    transform: rotate(15deg);
+    animation: pulse 3s infinite;
+    transform: rotate(20deg);
+    left: 900px;
+    bottom: 430px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1) rotate(15deg);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.1) rotate(15deg);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1) rotate(15deg);
+        opacity: 0.8;
+    }
+}
+
+.lens-flare4{
+    position: relative;
+    width: 2px;
+    height: 80px;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
+    border-radius: 50%;
+    filter: blur(10px);
+    box-shadow: 
+        0 0 50px rgba(255, 255, 255, 0.5), 
+        0 0 100px rgba(255, 255, 255, 0.3),
+        0 0 200px rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
+    left: 940px;
+    bottom: 380px;
+    transform: rotate(15deg);
+    animation: pulse 2s infinite;
+    transform: rotate(20deg);
+    left: 700px;
+    bottom: 380px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1) rotate(15deg);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.1) rotate(15deg);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1) rotate(15deg);
+        opacity: 0.8;
+    }
+}
+
+.lens-flare5 {
+    position: relative;
+    width: 2px;
+    height: 80px;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
+    border-radius: 50%;
+    filter: blur(10px);
+    box-shadow: 
+        0 0 50px rgba(255, 255, 255, 0.5), 
+        0 0 100px rgba(255, 255, 255, 0.3),
+        0 0 200px rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
+    left: 940px;
+    bottom: 380px;
+    transform: rotate(15deg);
+    animation: pulse 3s infinite;
+    transform: rotate(20deg);
+    left: 700px;
+    bottom: 810px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1) rotate(15deg);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.1) rotate(15deg);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1) rotate(15deg);
+        opacity: 0.8;
+    }
+}
+
+.lens-flare6 {
+    position: relative;
+    width: 2px;
+    height: 40px;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
+    border-radius: 50%;
+    filter: blur(10px);
+    box-shadow: 
+        0 0 50px rgba(255, 255, 255, 0.5), 
+        0 0 100px rgba(255, 255, 255, 0.3),
+        0 0 200px rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
+    left: 940px;
+    bottom: 380px;
+    transform: rotate(15deg);
+    animation: pulse 3s infinite;
+    transform: rotate(20deg);
+    left: 300px;
+    bottom: 670px;
+}
+
+.rings2 {
+    position: relative;
+    bottom: 25px;
+    left: 110px;
+    width: 40px;
+    height: 10px;
+    background: rgba(250, 250, 250, 0.7);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.9);
+}
+
+.rings3 {
+    position: relative;
+    bottom: 870px;
+    left: 800px;
+    width: 20px;
+    height: 5px;
+    background: rgba(250, 250, 250, 0.7);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) rotate(20deg);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.9);
+}
+
+
+.particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.particle {
+    position: absolute;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 50%;
+    opacity: 0.8;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    animation: float 10s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0) translateX(0) scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(-100px) translateX(100px) scale(0.5);
+        opacity: 0.6;
+    }
+    100% {
+        transform: translateY(-200px) translateX(200px) scale(0.2);
+        opacity: 0.2;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+

@@ -7,6 +7,10 @@ body {
     width: 100wh;
 }
 
+.container {
+    position: relative;
+}
+
 .sun {
     height: 220px;
     width: 220px;
@@ -34,12 +38,12 @@ body {
     border-radius: 50%;
     box-shadow: 0 0 25px rgba(255, 255, 255, 0.6);
     left: 515px;
-    top: -40px;
+    top: 10px;
 }
 
 .rings {
     position: relative;
-    bottom: 110px;
+    bottom: 60px;
     left: 600px;
     width: 250px;
     height: 30px;
@@ -57,7 +61,7 @@ body {
     position: absolute;
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.7);
     left: 50px;
-    bottom: 30px;
+    top: 280px;
 }
 
 .star {
@@ -71,7 +75,7 @@ body {
         0 0 30px rgba(255, 255, 255, 0.4);
     position: absolute;
     left: 100px;
-    bottom: 400px;
+    bottom: 250px;
 }
 
 .star2 {
@@ -235,8 +239,8 @@ body {
         0 0 100px rgba(255, 105, 180, 0.6), 
         0 0 150px rgba(255, 105, 180, 0.4);
     filter: blur(10px);
-    left: 280px;
-    bottom: 440px;
+    left: 220px;
+    bottom: 350px;
 }
 
 .black-hole2 {
@@ -250,8 +254,8 @@ body {
         0 0 100px rgba(255, 105, 180, 0.6), 
         0 0 150px rgba(255, 105, 180, 0.4);
     filter: blur(10px);
-    left: 990px;
-    bottom: 150px;
+    left: 800px;
+    bottom: 0px;
 }
 
 .star12 {
@@ -341,7 +345,7 @@ body {
         0 0 150px rgba(255, 105, 180, 0.4);
     filter: blur(10px);
     left: 400px;
-    bottom: 1px;
+    bottom: -90px;
 }
 
 .star17 {
@@ -597,7 +601,7 @@ body {
         0 0 200px rgba(255, 255, 255, 0.1);
     opacity: 0.8;
     left: 940px;
-    bottom: 380px;
+    bottom: 190px;
     transform: rotate(15deg);
     animation: pulse 4s infinite;
 }
@@ -634,8 +638,8 @@ body {
     transform: rotate(15deg);
     animation: pulse 2s infinite;
     transform: rotate(20deg);
-    left: 150px;
-    bottom: 430px;
+    left: 110px;
+    bottom: 220px;
 }
 
 @keyframes pulse {
@@ -670,8 +674,8 @@ body {
     transform: rotate(15deg);
     animation: pulse 3s infinite;
     transform: rotate(20deg);
-    left: 900px;
-    bottom: 430px;
+    left: 697px;
+    bottom: 70px;
 }
 
 @keyframes pulse {
@@ -706,8 +710,8 @@ body {
     transform: rotate(15deg);
     animation: pulse 2s infinite;
     transform: rotate(20deg);
-    left: 700px;
-    bottom: 380px;
+    left: 600px;
+    bottom: 15px;
 }
 
 @keyframes pulse {
@@ -742,8 +746,8 @@ body {
     transform: rotate(15deg);
     animation: pulse 3s infinite;
     transform: rotate(20deg);
-    left: 700px;
-    bottom: 810px;
+    left: 400px;
+    bottom: 110px;
 }
 
 @keyframes pulse {
@@ -779,12 +783,12 @@ body {
     animation: pulse 3s infinite;
     transform: rotate(20deg);
     left: 300px;
-    bottom: 670px;
+    bottom: 240px;
 }
 
 .rings2 {
     position: absolute;
-    bottom: 400px;
+    bottom: 250px;
     left: 110px;
     width: 40px;
     height: 10px;
@@ -796,8 +800,8 @@ body {
 
 .rings3 {
     position: absolute;
-    bottom: 870px;
-    left: 800px;
+    bottom: 300px;
+    left: 805px;
     width: 20px;
     height: 5px;
     background: rgba(250, 250, 250, 0.7);
@@ -850,4 +854,3 @@ body {
         transform: scale(1);
     }
 }
-

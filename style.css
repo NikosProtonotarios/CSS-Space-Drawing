@@ -618,7 +618,7 @@ body {
 }
 
 .lens-flare2{
-    position: relative;
+    position: absolute;
     width: 5px;
     height: 80px;
     background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
@@ -654,7 +654,7 @@ body {
 }
 
 .lens-flare3 {
-    position: relative;
+    position: absolute;
     width: 5px;
     height: 80px;
     background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
@@ -690,7 +690,7 @@ body {
 }
 
 .lens-flare4{
-    position: relative;
+    position: absolute;
     width: 2px;
     height: 80px;
     background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
@@ -726,7 +726,7 @@ body {
 }
 
 .lens-flare5 {
-    position: relative;
+    position: absolute;
     width: 2px;
     height: 80px;
     background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
@@ -762,7 +762,7 @@ body {
 }
 
 .lens-flare6 {
-    position: relative;
+    position: absolute;
     width: 2px;
     height: 40px;
     background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
@@ -783,8 +783,8 @@ body {
 }
 
 .rings2 {
-    position: relative;
-    bottom: 25px;
+    position: absolute;
+    bottom: 400px;
     left: 110px;
     width: 40px;
     height: 10px;
@@ -795,7 +795,7 @@ body {
 }
 
 .rings3 {
-    position: relative;
+    position: absolute;
     bottom: 870px;
     left: 800px;
     width: 20px;

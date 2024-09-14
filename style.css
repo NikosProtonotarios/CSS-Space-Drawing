@@ -21,13 +21,14 @@ body {
     0 0 60px rgba(255, 223, 00, 0.5),    
     0 0 100px rgba(255, 231, 78, 0.2); 
     position: relative;
-    left: 1100px;
-    top: 70px;
+    left: 1000px;
+    top: 20px;
 }
 
 .planet-chronos {
     position: absolute;
-    bottom: 100px;
+    bottom: 150px;
+    left: -70px;
 }
 
 .planet {
@@ -60,8 +61,253 @@ body {
     border-radius: 50%;
     position: absolute;
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.7);
-    left: 150px;
-    top: 380px;
+    left: 50px;
+    top: 300px;
+}
+
+.planeta-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 1160px;
+    top: 0px;
+  }
+
+  .planeta {
+    position: absolute;
+    top: -90px;
+    left: -250px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: radial-gradient(circle, #8a4baf 30%, #340078 70%, #0a001c);
+    box-shadow: 0 0 50px rgba(138, 75, 175, 0.8);
+    animation: pulse 5s infinite ease-in-out;
+  }
+
+  .ringsu {
+    position: absolute;
+    top: 10px;
+    left: -140px;
+    width: 300px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) rotate(20deg);
+    background: radial-gradient(ellipse, rgba(138, 75, 175, 0.2) 40%, transparent 60%);
+    box-shadow: 0 0 20px rgba(138, 75, 175, 0.4);
+    filter: blur(2px);
+    animation: rotate 10s infinite linear;
+  }
+
+  .nebula {
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(255, 105, 180, 0.8), rgba(0, 0, 0, 0.9));
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 
+        0 0 50px rgba(255, 105, 180, 0.8), 
+        0 0 100px rgba(255, 105, 180, 0.6), 
+        0 0 150px rgba(255, 105, 180, 0.4);
+    filter: blur(10px);
+    left: 300px;
+    bottom: 350px;
+}
+
+.black-hole2 {
+    width: 70px;
+    height: 70px;
+    background: radial-gradient(circle, rgba(160, 24, 24, 0.8), rgba(0, 0, 0, 0.9));
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 
+        0 0 50px rgba(47, 0, 92, 0.8), 
+        0 0 100px rgba(255, 105, 180, 0.6), 
+        0 0 150px rgba(255, 105, 180, 0.4);
+    filter: blur(10px);
+    left: 700px;
+    bottom: -40px;
+}
+
+.nebula2 {
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(circle, rgba(255, 105, 180, 0.8), rgba(0, 0, 0, 0.));
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 
+        0 0 50px rgba(255, 105, 180, 0.8), 
+        0 0 100px rgba(255, 105, 180, 0.6), 
+        0 0 150px rgba(255, 105, 180, 0.4);
+    filter: blur(10px);
+    left: 400px;
+    bottom: 30px;
+}
+
+.lens-flare {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
+    border-radius: 50%;
+    filter: blur(15px);
+    box-shadow: 
+        0 0 50px rgba(255, 255, 255, 0.5), 
+        0 0 100px rgba(255, 255, 255, 0.3),
+        0 0 200px rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
+    left: 960px;
+    bottom: 250px;
+    transform: rotate(15deg);
+    animation: pulse 4s infinite;
+}
+
+.lens-flare2{
+    position: absolute;
+    width: 5px;
+    height: 80px;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
+    border-radius: 50%;
+    filter: blur(10px);
+    box-shadow: 
+        0 0 50px rgba(255, 255, 255, 0.5), 
+        0 0 100px rgba(255, 255, 255, 0.3),
+        0 0 200px rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
+    left: 940px;
+    bottom: 380px;
+    transform: rotate(15deg);
+    animation: pulse 2s infinite;
+    transform: rotate(20deg);
+    left: 110px;
+    bottom: 220px;
+}
+
+.lens-flare6 {
+    position: absolute;
+    width: 2px;
+    top: 500px;
+    height: 340px;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
+    border-radius: 50%;
+    filter: blur(10px);
+    box-shadow: 
+        0 0 50px rgba(255, 255, 255, 0.5), 
+        0 0 100px rgba(255, 255, 255, 0.3),
+        0 0 200px rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
+    left: 940px;
+    bottom: 380px;
+    transform: rotate(50deg);
+    animation: pulse 3s infinite;
+    transform: rotate(20deg);
+    left: 300px;
+    bottom: 240px;
+}
+
+.lens-flare3 {
+    position: absolute;
+    width: 5px;
+    height: 80px;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
+    border-radius: 50%;
+    filter: blur(10px);
+    box-shadow: 
+        0 0 50px rgba(255, 255, 255, 0.5), 
+        0 0 100px rgba(255, 255, 255, 0.3),
+        0 0 200px rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
+    left: 940px;
+    bottom: 380px;
+    transform: rotate(15deg);
+    animation: pulse 3s infinite;
+    transform: rotate(20deg);
+    left: 697px;
+    bottom: 70px;
+}
+
+.lens-flare4{
+    position: absolute;
+    width: 2px;
+    height: 80px;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
+    border-radius: 50%;
+    filter: blur(10px);
+    box-shadow: 
+        0 0 50px rgba(255, 255, 255, 0.5), 
+        0 0 100px rgba(255, 255, 255, 0.3),
+        0 0 200px rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
+    left: 940px;
+    bottom: 380px;
+    transform: rotate(15deg);
+    animation: pulse 2s infinite;
+    transform: rotate(20deg);
+    left: 600px;
+    bottom: 15px;
+}
+
+.lens-flare5 {
+    position: absolute;
+    width: 2px;
+    height: 80px;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
+    border-radius: 50%;
+    filter: blur(10px);
+    box-shadow: 
+        0 0 50px rgba(255, 255, 255, 0.5), 
+        0 0 100px rgba(255, 255, 255, 0.3),
+        0 0 200px rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
+    left: 940px;
+    bottom: 380px;
+    transform: rotate(15deg);
+    animation: pulse 3s infinite;
+    transform: rotate(20deg);
+    left: 400px;
+    bottom: 110px;
+}
+
+.rings2 {
+    position: absolute;
+    bottom: 350px;
+    left: 110px;
+    width: 40px;
+    height: 10px;
+    background: rgba(250, 250, 250, 0.7);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.9);
+}
+
+.rings3 {
+    position: absolute;
+    bottom: 400px;
+    left: 805px;
+    width: 20px;
+    height: 5px;
+    background: rgba(250, 250, 250, 0.7);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) rotate(20deg);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.9);
+}
+
+
+.particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.particle {
+    position: absolute;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 50%;
+    opacity: 0.8;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    animation: float 10s ease-in-out infinite;
 }
 
 .star {
@@ -75,7 +321,7 @@ body {
         0 0 30px rgba(255, 255, 255, 0.4);
     position: absolute;
     left: 100px;
-    bottom: 250px;
+    bottom: 350px;
 }
 
 .star2 {
@@ -89,7 +335,7 @@ body {
         0 0 30px #fdec0066;
     position: absolute;
     left: 800px;
-    bottom: 300px;
+    bottom: 400px;
     background-color: rgb(250, 137, 7);
 }
 
@@ -228,36 +474,6 @@ body {
     bottom: 480px;
 }
 
-.nebula {
-    width: 300px;
-    height: 300px;
-    background: radial-gradient(circle, rgba(255, 105, 180, 0.8), rgba(0, 0, 0, 0.9));
-    border-radius: 50%;
-    position: absolute;
-    box-shadow: 
-        0 0 50px rgba(255, 105, 180, 0.8), 
-        0 0 100px rgba(255, 105, 180, 0.6), 
-        0 0 150px rgba(255, 105, 180, 0.4);
-    filter: blur(10px);
-    left: 300px;
-    bottom: 250px;
-}
-
-.black-hole2 {
-    width: 70px;
-    height: 70px;
-    background: radial-gradient(circle, rgba(160, 24, 24, 0.8), rgba(0, 0, 0, 0.9));
-    border-radius: 50%;
-    position: absolute;
-    box-shadow: 
-        0 0 50px rgba(47, 0, 92, 0.8), 
-        0 0 100px rgba(255, 105, 180, 0.6), 
-        0 0 150px rgba(255, 105, 180, 0.4);
-    filter: blur(10px);
-    left: 800px;
-    bottom: -100px;
-}
-
 .star12 {
     width: 2px;
     height: 2px;
@@ -331,21 +547,6 @@ body {
     position: absolute;
     left: 800px;
     bottom: 150px;
-}
-
-.nebula2 {
-    width: 60px;
-    height: 60px;
-    background: radial-gradient(circle, rgba(255, 105, 180, 0.8), rgba(0, 0, 0, 0.));
-    border-radius: 50%;
-    position: absolute;
-    box-shadow: 
-        0 0 50px rgba(255, 105, 180, 0.8), 
-        0 0 100px rgba(255, 105, 180, 0.6), 
-        0 0 150px rgba(255, 105, 180, 0.4);
-    filter: blur(10px);
-    left: 500px;
-    bottom: -280px;
 }
 
 .star17 {
@@ -588,22 +789,19 @@ body {
     bottom: 430px;
 }
 
-.lens-flare {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
-    border-radius: 50%;
-    filter: blur(15px);
-    box-shadow: 
-        0 0 50px rgba(255, 255, 255, 0.5), 
-        0 0 100px rgba(255, 255, 255, 0.3),
-        0 0 200px rgba(255, 255, 255, 0.1);
-    opacity: 0.8;
-    left: 1100px;
-    bottom: 140px;
-    transform: rotate(15deg);
-    animation: pulse 4s infinite;
+@keyframes pulse {
+    0% {
+        transform: scale(1) rotate(15deg);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.1) rotate(15deg);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1) rotate(15deg);
+        opacity: 0.8;
+    }
 }
 
 @keyframes pulse {
@@ -621,25 +819,19 @@ body {
     }
 }
 
-.lens-flare2{
-    position: absolute;
-    width: 5px;
-    height: 80px;
-    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
-    border-radius: 50%;
-    filter: blur(10px);
-    box-shadow: 
-        0 0 50px rgba(255, 255, 255, 0.5), 
-        0 0 100px rgba(255, 255, 255, 0.3),
-        0 0 200px rgba(255, 255, 255, 0.1);
-    opacity: 0.8;
-    left: 940px;
-    bottom: 380px;
-    transform: rotate(15deg);
-    animation: pulse 2s infinite;
-    transform: rotate(20deg);
-    left: 110px;
-    bottom: 220px;
+@keyframes pulse {
+    0% {
+        transform: scale(1) rotate(15deg);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.1) rotate(15deg);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1) rotate(15deg);
+        opacity: 0.8;
+    }
 }
 
 @keyframes pulse {
@@ -657,27 +849,6 @@ body {
     }
 }
 
-.lens-flare3 {
-    position: absolute;
-    width: 5px;
-    height: 80px;
-    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
-    border-radius: 50%;
-    filter: blur(10px);
-    box-shadow: 
-        0 0 50px rgba(255, 255, 255, 0.5), 
-        0 0 100px rgba(255, 255, 255, 0.3),
-        0 0 200px rgba(255, 255, 255, 0.1);
-    opacity: 0.8;
-    left: 940px;
-    bottom: 380px;
-    transform: rotate(15deg);
-    animation: pulse 3s infinite;
-    transform: rotate(20deg);
-    left: 697px;
-    bottom: 70px;
-}
-
 @keyframes pulse {
     0% {
         transform: scale(1) rotate(15deg);
@@ -691,142 +862,6 @@ body {
         transform: scale(1) rotate(15deg);
         opacity: 0.8;
     }
-}
-
-.lens-flare4{
-    position: absolute;
-    width: 2px;
-    height: 80px;
-    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
-    border-radius: 50%;
-    filter: blur(10px);
-    box-shadow: 
-        0 0 50px rgba(255, 255, 255, 0.5), 
-        0 0 100px rgba(255, 255, 255, 0.3),
-        0 0 200px rgba(255, 255, 255, 0.1);
-    opacity: 0.8;
-    left: 940px;
-    bottom: 380px;
-    transform: rotate(15deg);
-    animation: pulse 2s infinite;
-    transform: rotate(20deg);
-    left: 600px;
-    bottom: 15px;
-}
-
-@keyframes pulse {
-    0% {
-        transform: scale(1) rotate(15deg);
-        opacity: 0.8;
-    }
-    50% {
-        transform: scale(1.1) rotate(15deg);
-        opacity: 1;
-    }
-    100% {
-        transform: scale(1) rotate(15deg);
-        opacity: 0.8;
-    }
-}
-
-.lens-flare5 {
-    position: absolute;
-    width: 2px;
-    height: 80px;
-    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
-    border-radius: 50%;
-    filter: blur(10px);
-    box-shadow: 
-        0 0 50px rgba(255, 255, 255, 0.5), 
-        0 0 100px rgba(255, 255, 255, 0.3),
-        0 0 200px rgba(255, 255, 255, 0.1);
-    opacity: 0.8;
-    left: 940px;
-    bottom: 380px;
-    transform: rotate(15deg);
-    animation: pulse 3s infinite;
-    transform: rotate(20deg);
-    left: 400px;
-    bottom: 110px;
-}
-
-@keyframes pulse {
-    0% {
-        transform: scale(1) rotate(15deg);
-        opacity: 0.8;
-    }
-    50% {
-        transform: scale(1.1) rotate(15deg);
-        opacity: 1;
-    }
-    100% {
-        transform: scale(1) rotate(15deg);
-        opacity: 0.8;
-    }
-}
-
-.lens-flare6 {
-    position: absolute;
-    width: 2px;
-    top: 500px;
-    height: 340px;
-    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.01) 70%);
-    border-radius: 50%;
-    filter: blur(10px);
-    box-shadow: 
-        0 0 50px rgba(255, 255, 255, 0.5), 
-        0 0 100px rgba(255, 255, 255, 0.3),
-        0 0 200px rgba(255, 255, 255, 0.1);
-    opacity: 0.8;
-    left: 940px;
-    bottom: 380px;
-    transform: rotate(50deg);
-    animation: pulse 3s infinite;
-    transform: rotate(20deg);
-    left: 300px;
-    bottom: 240px;
-}
-
-.rings2 {
-    position: absolute;
-    bottom: 250px;
-    left: 110px;
-    width: 40px;
-    height: 10px;
-    background: rgba(250, 250, 250, 0.7);
-    border-radius: 50%;
-    transform: translate(-50%, -50%) rotate(45deg);
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.9);
-}
-
-.rings3 {
-    position: absolute;
-    bottom: 300px;
-    left: 805px;
-    width: 20px;
-    height: 5px;
-    background: rgba(250, 250, 250, 0.7);
-    border-radius: 50%;
-    transform: translate(-50%, -50%) rotate(20deg);
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.9);
-}
-
-
-.particles {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-}
-
-.particle {
-    position: absolute;
-    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-    border-radius: 50%;
-    opacity: 0.8;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
-    animation: float 10s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -855,40 +890,6 @@ body {
         transform: scale(1);
     }
 }
-
-.planeta-container {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    left: 1250px;
-    top: 50px;
-  }
-
-  .planeta {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background: radial-gradient(circle, #8a4baf 30%, #340078 70%, #0a001c);
-    box-shadow: 0 0 50px rgba(138, 75, 175, 0.8);
-    animation: pulse 5s infinite ease-in-out;
-  }
-
-  .ringsu {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 300px;
-    height: 100px;
-    border-radius: 50%;
-    transform: translate(-50%, -50%) rotate(20deg);
-    background: radial-gradient(ellipse, rgba(138, 75, 175, 0.2) 40%, transparent 60%);
-    box-shadow: 0 0 20px rgba(138, 75, 175, 0.4);
-    filter: blur(2px);
-    animation: rotate 10s infinite linear;
-  }
 
   @keyframes pulse {
     0%, 100% {

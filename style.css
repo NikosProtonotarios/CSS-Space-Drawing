@@ -321,7 +321,7 @@ body {
         0 0 30px rgba(255, 255, 255, 0.4);
     position: absolute;
     left: 100px;
-    bottom: -100px;
+    bottom: 350px;
 }
 
 .star2 {
@@ -1068,8 +1068,8 @@ body {
             0 0 100px rgba(255, 255, 255, 0.3),
             0 0 200px rgba(255, 255, 255, 0.1);
         opacity: 0.8;
-        left: 960px;
-        bottom: 250px;
+        left: -80px;
+        bottom: 300px;
         transform: rotate(15deg);
         animation: pulse 4s infinite;
     }
